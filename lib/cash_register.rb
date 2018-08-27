@@ -1,8 +1,8 @@
 class CashRegister
   
-  attr_accessor :total
+  attr_accessor :total :emp_disount
   
-  def initialize
+  def initialize(disount = )
     @total = 0
   end
   
