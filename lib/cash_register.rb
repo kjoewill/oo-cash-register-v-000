@@ -4,6 +4,7 @@ class CashRegister
   
   def initialize(disount = nil)
     @total = 0
+    
   end
   
 end
