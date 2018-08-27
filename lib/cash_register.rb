@@ -10,7 +10,7 @@ class CashRegister
   end
   
   def add_item (title, price, quantity = 1)
-    last_transaction = price
+    @last_transaction = price
     quantity.times do
       self.items << title
       self.total += price
